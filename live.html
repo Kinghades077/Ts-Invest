@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Live View - TS Investment</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="chatbot_embed.js" defer></script>
+</head>
+<body>
+  <header>
+    <div class="logo">TS Investment</div>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="learn.html">Learn</a>
+      <a href="practice.html">Practice</a>
+      <a href="live.html">Live View</a>
+    </nav>
+  </header>
+  <main>
+    <h1>📊 Live Global Market Impact</h1>
+    <p>Charts: Nifty, Bank Nifty, Dow Jones, Nasdaq, Crude Oil, Gold, USD/INR</p>
+    
+    <div class="chart-grid">
+      <iframe src="https://www.tradingview.com/widgetembed/?frameElementId=tradingview_c5f6e&symbol=NSE:NIFTY&interval=D&hidesidetoolbar=1" width="450" height="300"></iframe>
+      <iframe src="https://www.tradingview.com/widgetembed/?symbol=NASDAQ:NDX" width="450" height="300"></iframe>
+      <iframe src="https://www.tradingview.com/widgetembed/?symbol=FX_IDC:USDINR" width="450" height="300"></iframe>
+      <iframe src="https://www.tradingview.com/widgetembed/?symbol=TVC:GOLD" width="450" height="300"></iframe>
+    </div>
+
+    <div id="chatbot"></div>
+  </main>
+</body>
+</html>
